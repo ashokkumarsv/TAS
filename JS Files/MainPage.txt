@@ -1,0 +1,32 @@
+import React, {Component} from 'react';
+import './App.css';
+
+class App extends Component {
+     
+    render(){
+       const mystyle = {
+      color: "white",
+      backgroundColor: "#282c34",
+      padding: "10px",
+      fontFamily: "Arial",
+      textAlign: "center"
+    };
+       return(
+          <div>
+          <h1> Take a Step <button>Manage School</button><button>Help&Feedback</button><button>Profile</button></h1>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <form style={mystyle}>
+            <button>Student Records</button>
+            <p></p>
+            <button>Attendance</button>
+            <p></p>
+            <button>Reports</button> 
+          </form>
+          </div>
+       );
+   }
+}
+export default App;
